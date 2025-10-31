@@ -1,0 +1,164 @@
+header{
+    background-color: #7993a1;
+    color: white;
+    text-align: center;
+    padding: 1px 1x;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    border-bottom: 1px solid #eee;
+    height: 100px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+height: 80%;
+width: auto;
+margin-right: 10px;
+border-radius: 50%;
+}
+.logo h1{
+    font-size: 1.2rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(48, 65, 15);
+    font-size: 24px;
+    font-weight: bold;
+   margin-left: auto;
+   justify-content: space-between;
+}
+body{
+    background-color: #d1dbdf;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #023e8a;
+
+}
+a{
+    text-decoration: none;   
+}
+.splid{
+    text-align: center;
+}
+.splid h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.splid p{
+    font-weight: bold;
+    color: black;
+}
+.splid h2{
+    color: #bd6666;
+}
+.pacus{
+    text-align: center;
+    background-color: #dbe0e4;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.pacus h3{
+    font-size: 35px;
+    color: #bd6666;
+}
+.pacus p{
+    color: #023e8a;
+    font-weight: bold;
+}
+.pacus button{
+    background-color: rgb(190, 190, 101);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.pacus video{
+    height: 100vh;
+    width: 150vb;
+}
+.snoop{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(204, 116, 116);
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.snoop h2{
+    font-size: 40px;
+    color: black;
+}
+.snoop label{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.snoop button{
+    background-color: rgb(179, 179, 91);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.dance{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 7%;
+}
+.fight{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 7%;
+}
+.blame{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 7%;
+}
+.snoop ::placeholder{
+    text-align: center;
+}
+.bus{
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #eee ;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.gang h2{
+    color: rgb(54, 73, 15);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: wheat;
+    padding: 50px;
+    border-radius: 1%;
+}

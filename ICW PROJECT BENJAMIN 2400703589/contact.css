@@ -1,0 +1,160 @@
+header{
+    background-color: #7993a1;
+    color: white;
+    text-align: center;
+    padding: 1px 1x;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    border-bottom: 1px solid #eee;
+    height: 100px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+height: 80%;
+width: auto;
+margin-right: 10px;
+border-radius: 50%;
+}
+.logo h1{
+    font-size: 1.2rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(48, 65, 15);
+    font-size: 24px;
+    font-weight: bold;
+   margin-left: auto;
+   justify-content: space-between;
+}
+body{
+    background-color: #d1dbdf;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #023e8a;
+
+}
+a{
+    text-decoration: none;
+}
+.deep{
+    text-align: center;
+    background-color: #e0d6d6;
+    border: 1px slategrey ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 15%;
+}
+.deep button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(219, 219, 14);
+    border-radius: 9%;
+}
+.deep h4{
+    font-size: 40px;
+    color: #bd6666;
+}
+.deep{
+    font-size: 25px;
+    color: black;
+}
+.deep img{
+    height: 300px;
+    width: 300px;
+}
+.dive{
+    text-align: center;
+}
+.dive p{
+    color: black;
+    font-weight: bold;
+}
+.dive h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.dive h2{
+    font-size: 35px;
+}
+.over{
+    text-align: center;
+    background-color: rgb(109, 29, 29);
+    border: 1px rgb(109, 29, 29) solid;
+    margin-left: 250px ;
+    margin-right: 250px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.over h2{
+    color: black;
+    font-size: 40px;
+}
+.over label{
+    color: black;
+    font-size: 30px;
+}
+.over ::placeholder{
+    font-size: 20px;
+}
+.eight{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.seven{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.six{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.five{
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-top: 15px;
+    background-color: chartreuse;
+}
+.pull{
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #eee ;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: wheat;
+    padding: 50px;
+    border-radius: 1%;
+}

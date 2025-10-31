@@ -1,0 +1,145 @@
+header{
+    background-color: #7993a1;
+    color: white;
+    text-align: center;
+    padding: 1px 1x;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    border-bottom: 1px solid #eee;
+    height: 100px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+height: 80%;
+width: auto;
+margin-right: 10px;
+border-radius: 50%;
+}
+.logo h1{
+    font-size: 1.2rem;
+}
+nav a{
+    text-decoration: none;
+    color:  rgb(48, 65, 15);
+    font-size: 24px;
+    font-weight: bold;
+   margin-left: auto;
+   justify-content: space-between;
+}
+body{
+    background-color: #d1dbdf;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #023e8a;
+
+}
+a{
+    text-decoration: none;  
+}
+.time{
+    text-align: center;
+}
+.time h1{
+    font-size: 60px;
+}
+.time img{
+     width: 100vw;
+    height: 100vh;
+}
+.fall{
+    background-color: black;
+    color: #bd6666;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.fine{
+    display: flex;
+    gap: 200px;
+    color: #d1dbdf;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-style: italic;
+}
+.born{
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #eee ;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.raise{
+    text-align: center;
+    border: 1px silver solid;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #9a9ea0 ;
+    border-radius: 5%;
+}
+.raise h3{
+    font-size: 25px;
+    color: #bd6666;
+}
+.raise img{
+    height: 200px;
+    width: 200px;
+}
+.raise button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: blueviolet;
+}
+.dodo{
+    text-align: center;
+    background-color: #eef2f3;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.dodo h3{
+    font-size: 30px;
+    color: #bd6666;
+}
+.dodo{
+    font-size: 25px;
+}
+.them{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.them h4{
+    font-size: 30px;
+    color: #b17979;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: wheat;
+    padding: 50px;
+    border-radius: 1%;
+}

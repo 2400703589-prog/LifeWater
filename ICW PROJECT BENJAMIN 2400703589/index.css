@@ -1,0 +1,181 @@
+/* General Styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d1dbdf;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #023e8a;
+
+}
+
+header{
+    background-color: #7993a1;
+    color: white;
+    text-align: center;
+    padding: 1px 1x;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    border-bottom: 1px solid #eee;
+    height: 100px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+height: 80%;
+width: auto;
+margin-right: 10px;
+border-radius: 50%;
+}
+.logo h1{
+    font-size: 1.2rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(48, 65, 15);
+    font-size: 24px;
+    font-weight: bold;
+   margin-left: auto;
+   justify-content: space-between;
+}
+.play img{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+
+}
+
+
+
+.play h4{
+    font-size: 50px;
+    color: rgb(155, 91, 13);
+    font-style: italic;
+}
+.kite img{
+    height: 50%;
+    width: 50%;
+    border-radius: 5%;
+    margin-right: 10px;
+}
+.kite{
+     background-color: #eee ;
+    display: flex;
+     margin-top: 15px;
+     gap: 30px;
+     margin-left: 20px;
+     margin-right: 20px;
+     border-radius: 5%;
+     margin-bottom: 15px;
+}
+.Take img{
+    height: 80%;
+    width: 80px;
+    
+}
+.nose{
+    text-align: center;
+}
+.Take{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    background-color: #eee;
+    margin-left: 600px;
+    margin-right: 30px;
+    border-radius: 2%;
+}
+.Take button{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    background-color: yellow;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Take img{
+    margin-top: 10px;
+    margin-right: 500px;
+}
+.Learn{
+    background-color:  #eee;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    margin-right: 300px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.Learn button{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: #7993a1;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+.eyes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: #eee ;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 80px;
+    border-radius: 2%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: wheat;
+    padding: 50px;
+    border-radius: 1%;
+}
+.down {
+    text-align: center;
+}
+@media (max-width: 900px){
+    #hide {
+        display: none;
+    }
+}
